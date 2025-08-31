@@ -9,3 +9,5 @@ dependencies = ["commitizen"]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[project.entry-points."commitizen.plugin"]
+anidrone_comitizen_conventional_commits = "anidrone_comitizen_conventional_commits:AnidroneConventionalCommitsCz"
