@@ -1,0 +1,9 @@
+# -------------------------
+# Tasks (developer commands)
+# -------------------------
+# Run with: `mise run <task>` (or `mise <task>` if you have shims enabled)
+
+[tasks.setup]
+# First-time setup: install deps into the project .venv
+run = "uv sync --dev"
+

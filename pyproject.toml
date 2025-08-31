@@ -1,0 +1,11 @@
+[project]
+name = "anidrone-comitizen-conventional-commits"
+version = "0.1.0"
+
+# Core dependencies
+dependencies = ["commitizen"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
